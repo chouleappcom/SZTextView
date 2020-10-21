@@ -1,5 +1,8 @@
 # Changelog
 
+**1.4.0**
+Swift Package Manager Edition
+
 **1.3.0**
 
  - Allow use in application extensions -- #55 [@simonboots]

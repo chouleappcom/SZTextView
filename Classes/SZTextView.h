@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 glaszig. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for SZTextView.
 FOUNDATION_EXPORT double SZTextViewVersionNumber;
@@ -16,7 +16,6 @@ FOUNDATION_EXPORT const unsigned char SZTextViewVersionString[];
 
 
 IB_DESIGNABLE
-
 @interface SZTextView : UITextView
 
 @property (copy, nonatomic) IBInspectable NSString *placeholder;

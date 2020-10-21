@@ -6,7 +6,11 @@
 //  Copyright (c) 2013 glaszig. All rights reserved.
 //
 
+#if SWIFT_PACKAGE
 #import "SZTextView.h"
+#else
+#import <SZTextView/SZTextView.h>
+#endif
 
 #define HAS_TEXT_CONTAINER [self respondsToSelector:@selector(textContainer)]
 #define HAS_TEXT_CONTAINER_INSETS(x) [(x) respondsToSelector:@selector(textContainerInset)]

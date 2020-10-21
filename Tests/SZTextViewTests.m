@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 glaszig. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+@import XCTest;
 #import "SZTextView.h"
 
 @interface SZTextViewTests : XCTestCase
